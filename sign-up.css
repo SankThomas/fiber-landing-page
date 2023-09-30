@@ -113,4 +113,24 @@ section div:nth-child(2) {
     width: 500px;
     margin: auto;
   }
+
+  section div:nth-child(2) article ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  section div:nth-child(2) article ul li {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff75;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  section div:nth-child(2) article ul li.active {
+    background-color: #fff;
+  }
 }
