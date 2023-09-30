@@ -71,10 +71,11 @@ body {
   display: none;
 }
 
-.header .cta li:last-child button {
+.header .cta li:last-child a {
   background-color: #4d13d1;
   color: #fff;
   font-weight: bold;
+  font-size: 16px;
   padding: 0.625rem 1.5rem;
   border-radius: 0.2rem;
 }
